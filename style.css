@@ -1,0 +1,82 @@
+/*istruzioni generali pagina*/
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    color:white;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-image: url('materiale/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    text-align: center;
+    color:rgb(78, 255, 47);
+  }
+
+header img{
+    width:22%;
+  }
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+    padding: 70px;
+    border-radius: 20px;
+    margin-top: 100px;
+    background-color: rgba(0,0,0,0.5); 
+    margin: 35px auto;
+  
+  }
+
+  button{
+    z-index: 2;
+  }
+
+  .listautenti ul {
+    list-style: none;
+  }
+
+  .barra {
+    padding: 10px;
+    background-color:rgb(78, 255, 47);
+    width: 100%;
+   }
+
+  .gino{
+    margin-top: 25px;
+  }
+
+  .mike{
+    margin-top: 25px;
+  }
+
+  .fede{
+    margin-top: 25px;
+  }
+
+  .barragino22 {
+    padding: 12px;
+    background-color:orange;
+    width: 40%;
+    border-radius: 5px;
+  }
+
+  .barramike24 {
+    padding: 12px;
+    background-color:rgb(78, 255, 47);
+    width: 60%;
+    border-radius: 5px;
+  }
+
+  .barrafede154 {
+    padding: 12px;
+    background-color:red;
+    width: 20%;
+    border-radius: 5px;
+  }
